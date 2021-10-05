@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+.login-form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url(../imgs/undraw_Lost_online_re_upmy.svg);
+    background-size: 45%;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.btn-color {
+    color: #f0bc74;
+    background-color: transparent;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #f0bc74;
+}
+
+.btn-color:hover {
+    color: white;
+    background-color: #f0bc74;
+}
+
+.social-icons {
+    color: #f0bc74;
+}
+
+.social-icons i {
+    border: 2px solid #f0bc74;
+    width: 40px;
+    height: 40px;
+    padding: 2%;
+    margin: 8px;
+}
+
+.social-icons i:hover {
+    color: white;
+    background-color: #f0bc74;
+    border: 2px solid #f0bc74;
+    padding: 2%;
+}
