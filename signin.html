@@ -22,22 +22,22 @@
                         <form action="" method="" class="row g-5">
                             <h4 class="text-center">Login</h4>
                             <div class="col-12">
-                                <label>Username:</label>
-                                <input type="text" name="username" class="form-control" placeholder="Username">
+                                <label>Email:</label>
+                                <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
                             </div>
                             <div class="col-12">
                                 <label>Password:</label>
-                                <input type="password" name="password" class="form-control" placeholder="Password">
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
                                 <br>
                                 <input type="checkbox">
                                 <label for="text" class="ms-1">Remember Me</label>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="btn-lg btn-color rounded-3 float-end">Login</button>
+                                <button type="button" id="loginBtn" class="btn-lg btn-color rounded-3 float-end">Login</button>
                             </div>
                             <div class="text-center">
-                                <hr class="dropdown-divider
-                                <p class=" text-center ">Don't have any account? <a href="/register.html">Create an Account</a></p>
+                                <hr class="dropdown-divider">
+                                <p class=" text-center ">Don't have any account? <a href="/register.html ">Create an Account</a></p>
                             </div>
                         </form>
                     </div>
@@ -49,6 +49,8 @@
     <!-- Scripts -->
     <script src="assets/scripts/bootstrap.js "></script>
     <script src="assets/scripts/jquery.js "></script>
+    <!-- Custom Script External File -->
+    <script src="assets/scripts/signin.js" type="module"></script>
 </body>
 
 </html>
